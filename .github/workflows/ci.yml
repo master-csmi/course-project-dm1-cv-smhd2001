@@ -1,5 +1,5 @@
 name: CI Workflow 
-on: [push, pull_request] 
+on: [push, pull_request, workflow_dispatch] 
 jobs: 
   build: 
     runs-on: self-ubuntu-24.04

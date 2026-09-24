@@ -4,11 +4,9 @@
 
 \documentclass[lighthipster]{simplehipstercv}
 % available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
-% withoutsidebar
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
-
 
 %------------------------------------------------------------------ Variablen
 
@@ -20,37 +18,29 @@
 %------------------------------------------------------------------
 \title{Simple CV}
 \author{\LaTeX{} Seydina Mouhamed DIOP}
-\date{october 2025}
+\date{September 2026}
 
 \pagestyle{empty}
 \begin{document}
-
 
 \thispagestyle{empty}
 %-------------------------------------------------------------
 
 \section*{Start}
 
-\simpleheader{headercolour}{Seydina Mouhamed}{DIOP}{Student}{white}
-
-
+\simpleheader{headercolour}{Seydina Mouhamed}{DIOP}{M2 Student in Scientific Computing \& Math (CSMI)}{white}
 
 %------------------------------------------------
 
-% this has to be here so the paracols starts..
 \subsection*{}
-\vspace{4em}
+\vspace{3em}
 
-\setlength{\columnsep}{1.5cm}
+\setlength{\columnsep}{1.2cm}
 \columnratio{0.23}[0.75]
 \begin{paracol}{2}
 \hbadness5000
-%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
 
 \paracolbackgroundoptions
-
-% 0.9,0.9,0.9 -- 0.8,0.8,0.8
-
 
 \footnotesize
 {\setasidefontcolour
@@ -61,111 +51,93 @@
 
 \bg{cvgreen}{white}{About me}\\[0.5em]
 
-{\footnotesize I am a Master's student in Scientific and Mathematical Computing for Innovation. Passionate about high-performance computing, I am developing skills in parallelization, code optimization, and large-scale data management.}
+{\footnotesize M2 student in Scientific Computing \& Mathematical Innovation (CSMI). Seeking a 5 to 6-month master's thesis/internship starting early 2027 in Scientific Computing, Simulation, HPC, or Scientific ML.}
 \bigskip
 
 \bg{cvgreen}{white}{personal} \\[0.5em]
-    
-\infobubble{\faMapMarker}{cvgreen}{white}{1 bd de la victoire,}
-{67000 Strasbourg, France}
 
-\infobubble{\faPhone}{cvgreen}{white}{+33 7 75 79 86 68}
+\infobubble{\faMapMarker}{cvgreen}{white}{Strasbourg, France}{}
 
-\infobubble{\faAt}{cvgreen}{white}{mouhamediop2001@}
+\infobubble{\faPhone}{cvgreen}{white}{+33 7 75 79 86 68}{}
+
+\infobubble{\faAt}{cvgreen}{white}{mouhamediop2001@}{}
 gmail.com
 
-\infobubble{\faGithub}{cvgreen}{white}{smhd2001}
+\infobubble{\faGithub}{cvgreen}{white}{smhd2001}{}
 
 \bigskip
 
-\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+\bg{cvgreen}{white}{Specializations} \\[0.5em]
 
-Scientific calculation ~•~ High Performance Computing ~•~ Numerical methods ~•~  Optimization ~•~ Data science
+Scientific Computing ~•~ Scientific ML \& JAX ~•~ Numerical Methods (PDEs) ~•~ High Performance Computing (HPC) ~•~ Data Analysis \& Visualization ~•~ Optimization \& Uncertainty Quantification
 
-\phantom{turn the page}
+\bigskip
 
-\phantom{turn the page}
+\bg{cvgreen}{white}{Frameworks} \\[0.5em]
+
+JAX ~•~ NumPy / SciPy ~•~ MPI / OpenMP ~•~ Kokkos / OpenCL ~•~ CMake / CI-CD ~•~ ParaView (VTK)
 }
 %-----------------------------------------------------------
 \switchcolumn
 
 \small
-\section*{Short Resumé}
+\section*{Academic Journey \& Education}
 
-\begin{tabular}{r| p{0.5\textwidth} c}
-    \cvevent{2025--2026}{M1 in Scientific Computing and Mathematical Innovation}{}{France \color{cvred}}{Currently pursuing a Master's degree in Scientific and Mathematical Computing for Innovation, I am deepening my expertise in numerical methods, high-performance computing (HPC), and data science. This program equips me with advanced skills to tackle complex computational challenges and develop innovative solutions across various industries.}{UnistaLogo.png} \\
-    \cvevent{2024--2025}{Bachelor's degree in applied mathematics}{}{France \color{cvred}}{I undertook an academic stay in France to specialize in Applied Mathematics. This experience allowed me to gain practical expertise and broaden my skill set in the field. I completed a final-year Bachelor's program (License 3), which solidified the theoretical and practical foundations of my academic journey. }{UnistaLogo.png}\\
-    \cvevent{2022--2023}{Bachelor's degree in mathematics and computer science}{}{France \color{cvred}}{Through my Bachelor's degree in Computational Mathematics, I learned the critical importance of integrating theoretical mathematics with computer science to develop solutions to complex problems.}{IUDTLogo.jpg} \\
+\begin{tabular}{r| p{0.52\textwidth} c}
+    \cvevent{2026--2027}{M2 Scientific Computing \& Math. Innovation}{Unistra}{France \color{cvred}}{Specializing in Scientific Computing, Scientific Machine Learning (Python/JAX), Advanced PDEs, HPC (MPI, OpenMP, GPU), Data Analysis, Optimization, and Uncertainty Quantification.}{UnistaLogo.png} \\
+    \cvevent{2025--2026}{M1 Scientific Computing \& Math. Innovation}{Unistra}{France \color{cvred}}{Completed coursework in Random Models, Signal \& Image Processing, Scientific ML, HPC, and PDEs. Achieved top marks in Research Internship (17/20) and Project (15/20).}{UnistaLogo.png} \\
+    \cvevent{2024--2025}{B.Sc. in Applied Mathematics (L3)}{Unistra}{France \color{cvred}}{Specialized in Applied Mathematics at the University of Strasbourg, laying rigorous theoretical and practical foundations in numerical analysis and scientific computing.}{UnistaLogo.png}\\
+    \cvevent{2021--2023}{B.Sc. in Mathematics and Computer Science}{IUDT}{Senegal \color{cvred}}{Integrated mathematics and computer science fundamentals to develop algorithmic solutions for complex problems at Iba Der Thiam University of Thiès.}{IUDTLogo.jpg} \\
 \end{tabular}
-\vspace{3em}
 
-\begin{minipage}[t]{0.35\textwidth}
-\section*{Degrees}
-\begin{tabular}{r p{0.6\textwidth} c}
-    \cvdegree{2025}{Applied mathematics}{Bachelor's Degree}{University of Strasbour \color{headerblue}}{}{UnistaLogo.png} \\
-    \cvdegree{2023}{mathematics and computer science}{Bachelor's Degree}{Iba Der Thiam University of Thies \color{headerblue}}{}{IUDTLogo.jpg} \\
+\vspace{1.5em}
+
+\section*{Key R\&D Projects}
+
+\begin{tabular}{r| p{0.52\textwidth} c}
+    \cvevent{2026}{Micro-Macro Transition \& 3D Cell Flow}{Organ-on-Chip}{M1 Internship - Strasboug \color{cvred}}{Developed a 2D Kernel Density Estimation (KDE) pipeline in Python (NumPy, SciPy, Plotly, Pandas) with reflection boundary correction \& LSCV bandwidth optimization. Quantified 3D cell migration flows (U87 vs. SVGA) with statistical validation (Mann-Whitney U, $p<0.001$).}{UnistaLogo.png} \\
+    \cvevent{2025}{C++17 Numerical Solver for Processor Cooling}{C++ Solver}{M1 Project - Strasboug \color{cvred}}{Engineered an OOP C++17 finite difference solver for 1D heat equation with convection (steady/transient regimes \& pulsed flux). Implemented tridiagonal LU decomposition, analytical validation, CI/CD pipeline (GitHub Actions, CMake), and VTK/ParaView 3D export.}{UnistaLogo.png} \\
+    \cvevent{L3}{Conversational AI \& Guessing Game}{Python Chatbot}{L3 Project - Strasboug \color{cvred}}{Built a Python conversational agent utilizing decision tree logic and automated input handling.}{UnistaLogo.png} \\
 \end{tabular}
-\end{minipage}\hfill
-\begin{minipage}[t]{0.3\textwidth}
+
+\vspace{1.5em}
+
+\begin{minipage}[t]{0.38\textwidth}
 \section*{Programming}
 \begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{Python} &  \barrule{0.55}{0.5em}{cvgreen}\\
-     \bg{skilllabelcolour}{iconcolour}{C++} & \barrule{0.55}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{C} & \barrule{0.55}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.5}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{SQL} & \barrule{0.5}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{LATEX} & \barrule{0.25}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{Python (JAX)} &  \barrule{0.60}{0.5em}{cvgreen}\\
+     \bg{skilllabelcolour}{iconcolour}{C++ (C++17)} & \barrule{0.50}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{MATLAB / R} & \barrule{0.45}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{SQL / FreeFEM} & \barrule{0.40}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{LaTeX / Git} & \barrule{0.50}{0.5em}{cvgreen} \\
 \end{tabular}
-\end{minipage}
-
-
-\section*{Curriculum}
-\begin{tabular}{r| p{0.5\textwidth} c}
-    \cvevent{2024--present}{Care Assistant}{Age\&persepectives}{France \color{cvred}}{Assisting dependent persons in their daily lives}{logoaep.JPG} \\
-    \cvevent{2019--present}{Freelance Home Tutor}{}{France/Senegal \color{cvred}}{Teaching mathematics and science to middle and high school students}{tutoLogo.jpg} \\
-\end{tabular}
-\vspace{3em}
-
-\begin{minipage}[t]{0.3\textwidth}
-
-
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}
 \section*{Languages}
 \begin{tabular}{l | ll}
-\textbf{Wolof} & C2 & {\phantom{x}\footnotesize mother tongue} \\
-\textbf{French} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
-\textbf{English} & B2 & \pictofraction{\faCircle}{cvgreen}{2}{black!30}{2}{\tiny} 
+\textbf{French} & C1/C2 & {\phantom{x}\footnotesize Fluent} \\
+\textbf{English} & B1 & {\phantom{x}\footnotesize Technical} \\
+\textbf{Wolof} & C2 & {\phantom{x}\footnotesize Native} 
 \end{tabular}
-\bigskip
-
-\end{minipage}\hfill
-\begin{minipage}[t]{0.3\textwidth}
-\section*{Hobbies}
-\begin{tabular}{r @{\hspace{0.5em}} l}
-    \icon{\faBook}{cvgreen}{} & Reading \\
-    \icon{\faMusic}{cvgreen}{} & Music \\
-    \icon{\faPlane}{cvgreen}{} & Traveling \\
-\end{tabular}
-
-\bigskip
-
-
 \end{minipage}
 
+\vspace{1.5em}
 
+\section*{Professional \& Extracurricular Experience}
+\begin{tabular}{r| p{0.52\textwidth} c}
+    \cvevent{2024--present}{Care Assistant}{Age \& Perspectives}{Strasbourg \color{cvred}}{Assisting dependent and elderly persons in their daily lives. Demonstrating reliability, adaptability, and strong interpersonal skills.}{logoaep.JPG} \\
+    \cvevent{2019--present}{Freelance Home Tutor}{Mathematics \& Science}{FR / SN \color{cvred}}{Tutoring middle and high school students, translating complex scientific concepts into intuitive knowledge.}{tutoLogo.jpg} \\
+\end{tabular}
 
-
-
-
-\vfill{} % Whitespace before final footer
+\vfill{}
 
 %----------------------------------------------------------------------------------------
-%	FINAL FOOTER
+%   FINAL FOOTER
 %----------------------------------------------------------------------------------------
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\rightcolwidth}
 \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\small\icon{\faMapMarker}{cvgreen}{} 1 BD de la victoire,67000 Strasbour \icon{\faPhone}{cvgreen}{} +33 7 75 79 86 68 \newline\icon{\faAt}{cvgreen}{} \protect\url{mouhamediop2001@gmail.com}
-}
+{\small\icon{\faMapMarker}{cvgreen}{} Strasbourg, France \icon{\faPhone}{cvgreen}{} +33 7 75 79 86 68 \newline\icon{\faAt}{cvgreen}{} \protect\url{mouhamediop2001@gmail.com} \icon{\faGithub}{cvgreen}{} \protect\url{github.com/smhd2001}}
 \end{center}
 \end{minipage}
 
